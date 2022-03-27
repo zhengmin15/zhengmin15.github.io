@@ -1,9 +1,16 @@
+## Split函数
+
 C++标准库里面没有字符分割函数split ，但是在日常开发过程中，字符分割的场景经常有，存几个常用方法，具体如下：
+
 方法一: **利用STL实现split 函数**
+
 原型: vector<string> split(const string &s, const string &seperator);
+
 可实现的功能为：输入一个包含多个分隔符的字符串，返回一个字符串向量。
+
 代码如下展示：
-```cpp
+
+```clike
 #include <vector>
 #include <string>
 #include <iostream>
@@ -67,9 +74,11 @@ int main()
     cout << endl;
     //输出: a b c d e b 
 }
+
 ```
 另一种高效的实现方式，代码如下：
-```cpp
+
+```clike
 #include <vector>
 #include <string>
 #include <iostream>
@@ -107,6 +116,3 @@ int main()
     //输出: a,b c d
 }
 ```
-
-
-
