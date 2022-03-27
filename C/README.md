@@ -9,6 +9,22 @@ int main(){
 }
 ```
 
+```C
+#include <stdio.h>
+int main(){
+    cout << "hello world" << endl;
+    return 0;
+}
+```
+
+```clike
+#include <stdio.h>
+int main(){
+    cout << "hello world" << endl;
+    return 0;
+}
+```
+
 
 <details>
 <summary>我是一张弓（点击展开）</summary>
